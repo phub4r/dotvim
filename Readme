@@ -1,0 +1,13 @@
+[Usage]
+mv ~/.vim ~/.BAKvim$(date "+%Y-%m-%d %H:%M:%S")
+git clone https://github.com/phub4r/dotvim.git ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc
+cd ~/.vim
+
+[Adding a plugin]
+cd ~/.vim
+git submodule add http://github.com/<path>/<reponame.git> bundle/<reponame>
+git add .
+git commit -m "Install <reponame>.vim bundle as a submodule."
+~/.vim/update_bundles.sh
+
