@@ -1,5 +1,5 @@
 [Usage]
-mv ~/.vim ~/.BAKvim$(date "+%Y-%m-%d %H:%M:%S")
+mv ~/.vim ~/.BAKvim$(date "+%Y-%m-%dT%H.%M.%S")
 git clone https://github.com/phub4r/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim
