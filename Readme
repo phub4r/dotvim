@@ -11,3 +11,5 @@ git add .
 git commit -m "Install <reponame>.vim bundle as a submodule."
 ~/.vim/update_bundles.sh
 
+[Documentation]
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
