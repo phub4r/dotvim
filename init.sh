@@ -4,7 +4,7 @@ COMMAND="ln -s $HOME/.vim/vimrc $HOME/.vimrc"
 
 if [ -f "$HOME/.vimrc" ]
 then
-  read -p "File ~/.vimrc already exists, overwrite? (y/n) " choice
+  read -p "ATTENTION: This will overwrite your current ~/.vimrc file, is this ok? (y/n) " choice
   case "$choice" in 
     y|Y )
           echo "Trying it now"
